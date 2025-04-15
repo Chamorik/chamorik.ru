@@ -8,7 +8,7 @@ $menuItems = [
 
 <header>
     <nav>
-        <ul>
+        <ul class="nav-menu">
 	 <?php foreach ($menuItems as $title => $url): ?>
                 <li>
                     <a href="<?= $url ?>" <?= $_SERVER['REQUEST_URI'] == $url ? 'class="active"' : '' ?>>
